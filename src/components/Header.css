@@ -1,0 +1,105 @@
+.navbar {
+  margin-bottom: 20px;
+}
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.white {
+  background-color: white;
+}
+
+.navbar-nav a {
+  color: #9162af;
+}
+
+.navbar-nav a:hover{
+  background-color: #9162af;
+  color: white;
+}
+
+.purple {
+  background-color: #9162af;
+}
+
+.purple div a {
+  color: white !important;
+}
+
+.dropdown-item:hover{
+  background-color: #9162af;
+  color: white !important;
+}
+
+.dropdown-item li a:hover{
+  color: white;
+}
+
+h1 {
+  font-family: 'BhuTuka Expanded One', cursive;
+  text-align: center;
+}
+
+.logo {
+  height: 80px; 
+  background-color: rgb(255, 255, 255);
+  margin: 0 30px;
+}
+
+.principal {
+  display: flex;
+  align-content: space-around;
+  align-items: center;
+}
+
+.principal div {
+  text-align: center;
+  
+}
+
+.btn-white {
+  color: white;
+  /* background-color: rgba(255, 255, 255, 0.678); */
+  border: 2px solid white;
+  font-size: 1.2em;
+  padding: 15px;
+  margin: 10px;
+}
+
+.btn-white:hover{
+  background-color: blueviolet;
+  color: white;
+}
+
+.img-principal{
+  border-radius: 50%;
+  width: 50% !important;
+}
+
+.midia-social{
+  display: flex;
+  justify-content: center;
+}
+
+svg {
+  /* color: white; */
+  fill: white;
+  width: 2.5em;
+  margin: 20px;
+  
+}
+
+svg:hover{
+  width: 3em;
+}
